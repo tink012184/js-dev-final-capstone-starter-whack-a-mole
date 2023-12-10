@@ -1,6 +1,6 @@
 html {
   /* background: url('./assets/background.png') no-repeat center center fixed; */
-  background: url('./assets/Fantasy-Background.png') no-repeat center center fixed;
+  background: url('assets/Fantasy-Background.png') no-repeat center center fixed;
   box-sizing: border-box;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -54,7 +54,7 @@ h2 {
 
 .hole:after {
   display: block;
-  background: url("./assets/toadstools.png") bottom center no-repeat;
+  background: url("assets/toadstools.png") bottom center no-repeat;
   background-size:contain;
   content:'';
   width: 100%;
@@ -66,7 +66,7 @@ h2 {
 }
 
 .mole {
-  background:url('./assets/Pixie.png') bottom center no-repeat;
+  background:url('assets/Pixie.png') bottom center no-repeat;
   background-size: 60%;
   position: absolute;
   top: 100%;
