@@ -1,3 +1,5 @@
+
+let body = document.getElementsByTagName("body")[0];
 const holes = document.querySelectorAll('.hole');
 const moles = document.querySelectorAll('.mole');
 const startButton = document.querySelector('#start');
@@ -11,6 +13,19 @@ let lastHole = 0;
 let points = 0;
 let difficulty = "easy";
 
+
+function cursorAnimation() {
+	let body = document.getElementsByTagName("body")[0];
+ 
+   body.style.cursor= "url('https://raw.githubusercontent.com/nderespino/whack-a-mole/main/assets/cat-paw3.png'), auto";
+  
+   setTimeout(() => {
+	body.style.cursor = "url('https://raw.githubusercontent.com/nderespino/whack-a-mole/main/assets/cat-paw.png'), auto";
+  
+   }, 300);
+  };
+
+  
 /**
  * Generates a random integer within a range.
  *
@@ -273,7 +288,7 @@ function startGame() {
 
 startButton.addEventListener("click", startGame);
 
-body.style.cursor = "url('https://raw.githubusercontent.com/nderespino/whack-a-mole/main/assets/cat-paw.png'), auto";
+
 
 
 // Please do not modify the code below.
