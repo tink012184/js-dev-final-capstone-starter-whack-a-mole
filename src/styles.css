@@ -43,7 +43,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  cursor: url('../assets/cat-paw.png'), pointer;
+  cursor: pointer;
 }
 
 .hole {

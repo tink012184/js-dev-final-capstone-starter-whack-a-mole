@@ -273,6 +273,8 @@ function startGame() {
 
 startButton.addEventListener("click", startGame);
 
+body.style.cursor = "url('https://raw.githubusercontent.com/nderespino/whack-a-mole/main/assets/cat-paw.png'), auto";
+
 
 // Please do not modify the code below.
 // Used for testing purposes.
